@@ -1,11 +1,15 @@
 <template>
   <div class="container">
-    <text>home</text>
+    <tarBar />
   </div>
 </template>
 <script>
-export default {
+import TarBar from '@/components/TarBar';
 
+export default {
+  components: {
+    tarBar: TarBar
+  }
 };
 </script>
 
